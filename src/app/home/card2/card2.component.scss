@@ -1,0 +1,222 @@
+:host {
+
+  width: 100%;
+  height: auto;
+  display: block;
+  
+  .heading {
+    color: var(--text-basic-color);
+  }
+    
+  .space2 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space8 {
+    height: 195px;
+    width: 205px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space81 {
+    height: 248px;
+    width: 202px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space811 {
+    height: 167px;
+    width: 411px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space81111 {
+    height: 236px;
+    width: 238px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space8111 {
+    height: 252px;
+    width: 202px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image5 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space811111 {
+    height: 136px;
+    width: 315px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image6 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space8111111 {
+    height: 243px;
+    width: 145px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .image7 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: fill;
+  }
+    
+  .space81111111 {
+    height: 219px;
+    width: 392px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .space6 {
+    height: 500px;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .divider {
+    width: 100%;
+    height: 2px;
+    margin: 4px 0;
+    background-color: var(--bg-hint-color);
+  }
+    
+  .space7 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+  }
+    
+  .card2 {
+    width: 100%;
+    height: 100%;
+    > nb-card-footer {
+      padding: 0;
+    }
+  }
+  
+}
+
+/*Custom CSS*/
+.mx-2{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mt-2{
+  margin-top: 15px;
+}
+
+.pl-2{
+  padding-left: 7%!important;
+}

@@ -1,0 +1,22 @@
+<nb-layout withScroll [class.header-hidden]="!(layout$ | async)?.header">
+
+  <nb-layout-header *ngIf="(layout$ | async)?.header" class="header">
+    <div class="space space1">
+      <button nbButton class="button size-xl-medium" appearance="ghost" status="primary" (click)="toggleSidebar($event)">
+        <nb-icon class="icon btn-icon" icon="menu"></nb-icon>
+        <span></span>
+      </button>
+    </div>
+  </nb-layout-header>
+
+  <nb-sidebar *ngIf="(layout$ | async)?.sidebar" class="sidebar" responsive="true" [collapsedBreakpoints]="['xs', 'is', 'sm']" [compactedBreakpoints]="[]">
+    <div class="space sidebar-space">
+      <nb-menu class="menu" [items]="items"></nb-menu>
+    </div>
+  </nb-sidebar>
+
+  <nb-layout-column [style.padding]="0">
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+
+</nb-layout>
